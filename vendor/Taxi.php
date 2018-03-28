@@ -14,7 +14,7 @@ class Taxi extends Avto{
     public function __toString() {
         $str=parent::__toString();
         $str.='№ таксопарка:'.$this->park_number.'<br>';
-        $str.='ТаксиЖ '.$this->taxi.'<br>';
+        $str.='Такси: '.$this->taxi.'<br>';
         return $str;
     }
 }
