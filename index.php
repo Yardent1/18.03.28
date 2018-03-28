@@ -18,5 +18,8 @@ spl_autoload_register (function ($class) {
 //echo ($testObj->name);
 
 
-$human=new Human('Вася', 'Пупкин', 22, 'Днепр, пр Кирова, 96Б');
-echo $human;
+//$human=new Human('Вася', 'Пупкин', 22, 'Днепр, пр Кирова, 96Б');
+//echo $human;
+
+$student=new Student('Коля', 'Тросточкин', 33, 'Киев, Банковская, 44');
+echo $student;
