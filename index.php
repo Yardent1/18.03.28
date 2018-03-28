@@ -12,7 +12,11 @@ spl_autoload_register (function ($class) {
 
 
 
-$testObj=new Test();
-$testObj->name='Vasya';
-var_dump($testObj);
-echo ($testObj->name);
+//$testObj=new Test();
+//$testObj->name='Vasya';
+//var_dump($testObj);
+//echo ($testObj->name);
+
+
+$human=new Human('Вася', 'Пупкин', 22, 'Днепр, пр Кирова, 96Б');
+echo $human;

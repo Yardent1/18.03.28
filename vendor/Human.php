@@ -18,10 +18,10 @@ class Human {
     
     public function __toString() {
         $str='';
-        $str.='Имя: '.$this->name.'/n';
-        $str.='Фамилия: '.$this->surname.'/n';
-        $str.='Возраст: '.$this->age.'/n';
-        $str.='Адрес: '.$this->address.'/n';
+        $str.='Имя: '.$this->name.'<br>';
+        $str.='Фамилия: '.$this->surname.'<br>';
+        $str.='Возраст: '.$this->age.'<br>';
+        $str.='Адрес: '.$this->address.'<br>';
         return $str;
     }
     
